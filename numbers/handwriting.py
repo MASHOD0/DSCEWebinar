@@ -44,7 +44,7 @@ model.compile(
     loss="categorical_crossentropy",
     metrics=["accuracy"]
 )
-model.fit(x_train, y_train, epochs=10)
+model.fit(x_train, y_train, epochs=20)
 
 # Evaluate neural network performance
 model.evaluate(x_test,  y_test, verbose=2)
