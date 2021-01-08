@@ -1,2 +1,3 @@
 # DSCEWebinar
-this repo has the distro to Deeplearning Webinar
+this repository has the distribution code to Deeplearning Webinar
+# 0. Numbers
