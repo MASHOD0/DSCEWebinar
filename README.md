@@ -73,13 +73,13 @@ pip3 install -r requirements.txt
 python handwriting.py (filename)
 ```
 where you are expected to enter name of the model you want to create (file name must end with ```.h5```) 
-\n Note: this might take sometime
+Note: this might take sometime
 5. run the recognition script to get a GUI .
 ```
 python recognition.py model.h5
 ```
 if you have followed step four and created a model enter the name of that model instead of ``` model.h5```
 # Contributors 
-[Ataa](github.com/ataago)
+[Ataa](github.com/ataago) ,
 [Mashhood](github.com/MASHOD0)
 
