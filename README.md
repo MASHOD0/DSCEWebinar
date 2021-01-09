@@ -80,6 +80,6 @@ python recognition.py model.h5
 ```
 if you have followed step four and created a model enter the name of that model instead of ``` model.h5```
 # Contributors 
-[Ataa](github.com/ataago) ,
-[Mashhood](github.com/MASHOD0)
+[Ataago](https://github.com/Ataago/) ,
+[Mashhood](https://github.com/MASHOD0/)
 
