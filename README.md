@@ -47,7 +47,7 @@ pip3 install -r requirements.txt
 ```
 python convolution.py bridge.png
 ```
-3. Numbers
+# 3. Numbers
 This is a classic example of a Convolutional Neural Network (CNN) wherein we predict the number drawn on the screen .
 ## Contents
 1. /assets (this directory has the fonts required for the pygame interface)
