@@ -47,4 +47,39 @@ pip3 install -r requirements.txt
 ```
 python convolution.py bridge.png
 ```
+3. Numbers
+This is a classic example of a Convolutional Neural Network (CNN) wherein we predict the number drawn on the screen .
+## Contents
+1. /assets (this directory has the fonts required for the pygame interface)
+2. handwriting.py (This is a python script which generates a model)
+3. recognition..py (This is a python script which generates a pygame GUI it takes a model as a command line argument based on which it predicts the number drawn)
+4. model.h5 (This is a model which can be used to evalute the number drawn, you can pass this as a command line argument in ```recognition.py```)
+5. requirements.txt (the file containing all the libraries to be installed)
+## Instructions to run the program
+1. make a virtual environment (assuming that you have already installed python on your system) by running this command in your terminal.
+```
+python -m venv venv
+```
+3. Activate your virtual environment by running this comand in your terminal
+```
+source venv/Scripts/activate
+```
+3. Install the required packages by running this command in your terminal.
+```
+pip3 install -r requirements.txt
+```
+4. you can create a model (This repository has a ready model which can be used instead) by running this command
+```
+python handwriting.py (filename)
+```
+where you are expected to enter name of the model you want to create (file name must end with ```.h5```) 
+\n Note: this might take sometime
+5. run the recognition script to get a GUI .
+```
+python recognition.py model.h5
+```
+if you have followed step four and created a model enter the name of that model instead of ``` model.h5```
+# Contributors 
+[Ataa](github.com/ataago)
+[Mashhood](github.com/MASHOD0)
 
